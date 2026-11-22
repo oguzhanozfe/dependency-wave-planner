@@ -1,0 +1,20 @@
+{
+  "action": "Schedule upgrade unit",
+  "id": "unit:common-schema",
+  "linked_source_records": [
+    "common-schema"
+  ],
+  "choices": {
+    "unit:common-schema": ""
+  },
+  "artifacts": {
+    "rollout-waves.json": {
+      "sha256": "e1e9903103ffbec93351f5e8090f33e8578abbb1ea1ed672aa2e334f54592a1c",
+      "changed_by_approval": true
+    },
+    "rollback-order.json": {
+      "sha256": "4f6e49db43be40fbde57f120a96182a4874c4d82528fafd34b835fe143761545",
+      "changed_by_approval": true
+    }
+  }
+}

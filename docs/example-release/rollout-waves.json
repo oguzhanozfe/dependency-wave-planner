@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "waves": [
+    {
+      "wave": 1,
+      "units": [
+        {
+          "unit": "unit:common-schema",
+          "coordinated": false,
+          "packages": [
+            {
+              "id": "common-schema",
+              "current": "3.1.2",
+              "target": "4.0.0",
+              "depends_on": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

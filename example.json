@@ -1,0 +1,40 @@
+{
+  "parallelism": 2,
+  "packages": [
+    {
+      "id": "common-schema",
+      "current": "3.1.2",
+      "target": "4.0.0"
+    },
+    {
+      "id": "collector",
+      "current": "2.7",
+      "target": "2.8",
+      "depends_on": [
+        "shared-codec",
+        "common-schema"
+      ]
+    },
+    {
+      "id": "shared-codec",
+      "current": "1.4",
+      "target": "1.5",
+      "depends_on": [
+        "collector"
+      ]
+    },
+    {
+      "id": "worker",
+      "current": "5.0",
+      "target": "5.1",
+      "depends_on": [
+        "collector"
+      ]
+    },
+    {
+      "id": "docs-export",
+      "current": "1.0",
+      "target": "1.1"
+    }
+  ]
+}
