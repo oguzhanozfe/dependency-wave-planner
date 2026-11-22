@@ -1,0 +1,14 @@
+{
+  "model": "gemma-4-e4b-it",
+  "provider": "local",
+  "source_sha256": "48d06daca855061622087c126e1f13a51183044c284f6a609c75a424477dbfc5",
+  "considered": 4,
+  "total": 4,
+  "recommendations": [
+    {
+      "id": "unit:collector",
+      "evidence_id": "shared-codec",
+      "why": "The evidence shows that 'shared-codec' depends on 'collector', which creates an atomic cycle when combined with collector's dependency on 'shared-codec'."
+    }
+  ]
+}

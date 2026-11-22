@@ -2,11 +2,13 @@
 
 Schedule version upgrades in dependency order, keeping mutually dependent packages in one reviewable unit.
 
-[![Verify](https://github.com/oguzhanozfe/dependency-wave-planner/actions/workflows/check.yml/badge.svg)](https://github.com/oguzhanozfe/dependency-wave-planner/actions/workflows/check.yml) · [Deploy to Render](https://render.com/deploy?repo=https://github.com/oguzhanozfe/dependency-wave-planner) · [Input guide](GUIDE.md)
+**[Open the live demo](https://oguzhanozfe.github.io/dependency-wave-planner/)** · [![Verify](https://github.com/oguzhanozfe/dependency-wave-planner/actions/workflows/check.yml/badge.svg)](https://github.com/oguzhanozfe/dependency-wave-planner/actions/workflows/check.yml) · [Deploy to Render](https://render.com/deploy?repo=https://github.com/oguzhanozfe/dependency-wave-planner) · [Input guide](GUIDE.md)
 
 Several packages need to move together. See which upgrades can go first and which dependencies create a cycle before scheduling the release.
 
 ![Example result for Dependency Wave Planner](docs/result.png)
+
+The live demo lets you edit the input, search proposed changes with an on-device model and download the result. [Browser demo details](demo/DEMO.md)
 
 ## Try it
 
